@@ -1,0 +1,67 @@
+/* Import elegant fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fdfaf6; /* Soft beige background */
+  margin: 0;
+  padding: 0;
+  color: #2c3e50; /* Elegant dark navy text */
+}
+
+nav {
+  background-color: #2c3e50; /* Dark navy */
+  padding: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5em;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+nav a {
+  color: #f4e2d8; /* Soft gold text */
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f9d276; /* Lighter gold on hover */
+}
+
+main {
+  padding: 3em 2em;
+  background-color: #ffffff;
+  margin: 2em auto;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
